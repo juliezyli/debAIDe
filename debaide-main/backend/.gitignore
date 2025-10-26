@@ -1,0 +1,36 @@
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.db
+*.sqlite3
+
+# Storage
+storage/
+*.wav
+*.mp3
+*.webm
+
+# Environment
+.env
+.env.local
+../.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store

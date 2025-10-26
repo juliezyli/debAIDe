@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "debAIDe",
+    "slug": "debaide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.debaide.app"
+    },
+    "android": {
+      "package": "com.debaide.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "debaide"
+  }
+}
